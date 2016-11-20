@@ -12,7 +12,7 @@ public class TowersOfHanoi {
 	public static void main(String[] args){
 		Stopwatch stopwatch = new Stopwatch();
 		
-		move(20, 1, 2, 3);
+		move(4, 1, 2, 3);
 		
 		double time = stopwatch.elapsedTime();
 		System.out.println("elapsed time " + time);

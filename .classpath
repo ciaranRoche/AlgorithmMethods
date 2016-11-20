@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="3sum"/>
 	<classpathentry kind="src" path="RercusiveMethods"/>
 	<classpathentry kind="src" path="TowersOfHanoi"/>
+	<classpathentry kind="src" path="Fibonacci"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/stdlib-package.jar"/>
 	<classpathentry kind="output" path="bin"/>
