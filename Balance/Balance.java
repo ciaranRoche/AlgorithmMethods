@@ -9,9 +9,9 @@ public class Balance implements Comparable<Balance>{
 	}
 	
 	public int compareTo(Balance that){
-		if(this.amount < that.amount - 0.05)
+		if(this.amount < that.amount - 0.03)
 			return -1;
-		if (this.amount > that.amount + 0.05)
+		if (this.amount > that.amount + 0.03)
 			return +1;
 		return 0;
 	}
@@ -23,11 +23,13 @@ public class Balance implements Comparable<Balance>{
 		b = new Balance(1.03);
 		c = new Balance(1.06);
 		
-		if (a.compareTo(b) == 0)
-			if (b.compareTo(c) == 0)
-				if (a.compareTo(c) == 0)
+		if (a.compareTo(b) < 0)
+			if (b.compareTo(c) < 0)
+				if (a.compareTo(c) < 0)
 					System.out.println("Transitive");
 				else
 					System.out.println("Not Transitive. Get out of here");
-		}
+		
+	}
+	
 	}
