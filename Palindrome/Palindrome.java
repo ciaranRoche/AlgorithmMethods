@@ -7,12 +7,17 @@ import com.google.common.base.Preconditions;
 
 public class Palindrome {
 
-	@Test
-	public void testPalindrome(){
-		assertTrue(isPalindrome("radar"));
-		assertFalse(isPalindrome("radsr"));
-		assertTrue(isPalindromeNonRecursive("radar"));
-		assertFalse(isPalindromeNonRecursive("radsr"));
+//	@Test
+//	public void testPalindrome(){
+//		assertTrue(isPalindrome("radar"));
+//		assertFalse(isPalindrome("radsr"));
+//		assertTrue(isPalindromeNonRecursive("radar"));
+//		assertFalse(isPalindromeNonRecursive("radsr"));
+//	}
+	
+	public static void main(String[] args){
+		System.out.println(isPalindrome("radar"));
+		System.out.println(isPalindrome("cat"));
 	}
 	
 	
